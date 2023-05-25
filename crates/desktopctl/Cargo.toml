@@ -1,0 +1,12 @@
+[package]
+name = "desktopctl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+utils = { path = "../utils" }
+clap = { version = "^4.2.7", features = ["derive"] }
+hyper = { version = "0.14", features = ["full"] }
+log = "^0.4.17"
+tokio = { version = "1", features = ["full"] }
+hyperlocal = { version = "0.8.0", features = ["client"] }

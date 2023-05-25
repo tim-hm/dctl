@@ -1,0 +1,3 @@
+ENV=dev
+RUST_LOG=debug
+PORT=18080
