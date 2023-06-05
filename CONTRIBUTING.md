@@ -15,6 +15,10 @@ Reading and following these guidelines will help make the contribution process s
 
 ## Getting started
 
+### Dev Dependencies
+
+- `sudo apt install libgtk-4-dev build-essential`
+
 ## Issues
 
 ## Contributing code
