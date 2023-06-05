@@ -1,0 +1,9 @@
+[Unit]
+Description=desktop glue (aka desktopd)
+
+[Service]
+ExecStart=%h/.cargo/bin/desktopd
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

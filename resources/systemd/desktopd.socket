@@ -1,0 +1,9 @@
+[Unit]
+Description=desktopd socket activation
+
+[Socket]
+ListenStream=/run/user/%U/desktopd.socket
+Accept=false
+
+[Install]
+WantedBy=sockets.target
