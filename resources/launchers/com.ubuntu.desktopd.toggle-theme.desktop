@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Toggle Theme
+Exec=/home/tim/.cargo/bin/desktopctl theme toggle
+Icon=dark-mode-symbolic
+Terminal=false
+Type=Application
+Categories=System;Settings;
+Keywords=theme;toggle;light;dark;search;
